@@ -3,8 +3,12 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
 
+
+// ADD YOUR IDs AND KEY HERE DIRECTLY.
+//or
+//Create a separate .env file in root directory and access that with process.evn.<VARIABLE_NAME>
 firebase.initializeApp({
-    apiKey: "API_KEY_GOES_HERE",                            //EDIT THIS FIELDS WITH YOUR KEYS
+    apiKey: "API_KEY_GOES_HERE",                            
     authDomain: "react-chatsapp.firebaseapp.com",
     projectId: "react-chatsapp",
     storageBucket: "react-chatsapp.appspot.com",           
