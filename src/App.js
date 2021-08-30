@@ -4,12 +4,12 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 firebase.initializeApp({
-    apiKey: "AIzaSyCzuB9ECPVb9MgXb_xYQGvFE9Uc6Ww2QCA",
+    apiKey: "API_KEY_GOES_HERE",
     authDomain: "react-chatsapp.firebaseapp.com",
     projectId: "react-chatsapp",
     storageBucket: "react-chatsapp.appspot.com",
-    messagingSenderId: "207601206642",
-    appId: "1:207601206642:web:c47c142af8b23f668e49eb",
+    messagingSenderId: "MSG_SENDER_ID",
+    appId: "API_ID-GOES_HERE",
 });
 
 const auth = firebase.auth();
