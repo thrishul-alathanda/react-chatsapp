@@ -4,10 +4,10 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 firebase.initializeApp({
-    apiKey: "API_KEY_GOES_HERE",
+    apiKey: "API_KEY_GOES_HERE",                            //EDIT THIS FIELDS WITH YOUR KEYS
     authDomain: "react-chatsapp.firebaseapp.com",
     projectId: "react-chatsapp",
-    storageBucket: "react-chatsapp.appspot.com",
+    storageBucket: "react-chatsapp.appspot.com",           
     messagingSenderId: "MSG_SENDER_ID",
     appId: "API_ID-GOES_HERE",
 });
